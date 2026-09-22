@@ -4,7 +4,7 @@ metadata:
   name: mysql-pvc
   namespace: bankapp
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   storageClassName: gp3
   accessModes:
@@ -19,7 +19,7 @@ metadata:
   name: ollama-pvc
   namespace: bankapp
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   storageClassName: gp3
   accessModes:
