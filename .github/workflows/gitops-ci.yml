@@ -1,3 +1,4 @@
+# workflow registration trigger
 name: GitOps CI - Build & Push to DockerHub
 
 on:
