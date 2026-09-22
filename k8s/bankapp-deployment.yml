@@ -48,7 +48,7 @@ spec:
               cpu: "100m"
       containers:
         - name: bankapp
-          image: kalpeshdhotre/ai-bankapp-eks:latest
+          image: kalpeshdhotre/ai-bankapp-eks:90f92ce
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
